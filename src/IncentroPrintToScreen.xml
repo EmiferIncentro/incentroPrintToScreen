@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="incentro.incentroprinttoscreen.IncentroPrintToScreen" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Incentro Print To Screen</name>
+    <description>My widget description</description>
+    <icon/>
+      <properties>
+        <propertyGroup caption="Requied">
+            <property key="className" type="string" required="true">
+                <caption>Container Class Name</caption>
+                <description>Accept with no space</description>
+            </property>
+            <property key="preFix" type="string" required="true">
+                <caption>Document Prefix</caption>
+                <description>For example TBN-</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
