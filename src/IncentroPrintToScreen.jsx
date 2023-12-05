@@ -4,7 +4,6 @@ import jsPDF from "jspdf";
 
 export function IncentroPrintToScreen( props ) {
 
-    
     const exportPDF = () => {
         const newDate = new Date().getTime();
         const newDateString = newDate.toString();
